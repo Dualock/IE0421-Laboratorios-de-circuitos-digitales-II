@@ -1,0 +1,327 @@
+$date
+	Thu May 12 08:12:38 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1us
+$end
+$scope module test $end
+$var wire 8 ! Result [7:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % rstn $end
+$scope module arr $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 ( clk $end
+$var wire 1 % rstn $end
+$var wire 8 ) wResult [7:0] $end
+$var wire 4 * column_result_row1 [3:0] $end
+$var wire 4 + column_result_row0 [3:0] $end
+$var wire 4 , carry_row2 [3:0] $end
+$var wire 4 - carry_row1 [3:0] $end
+$var wire 4 . carry_row0 [3:0] $end
+$var reg 8 / Result [7:0] $end
+$scope module add00 $end
+$var wire 1 0 ab0 $end
+$var wire 1 1 ab1 $end
+$var wire 1 2 ci $end
+$var wire 1 % rstn $end
+$var wire 1 3 co $end
+$var wire 1 4 adder_result $end
+$upscope $end
+$scope module add01 $end
+$var wire 1 5 ab0 $end
+$var wire 1 6 ab1 $end
+$var wire 1 7 ci $end
+$var wire 1 % rstn $end
+$var wire 1 8 co $end
+$var wire 1 9 adder_result $end
+$upscope $end
+$scope module add02 $end
+$var wire 1 : ab0 $end
+$var wire 1 ; ab1 $end
+$var wire 1 < ci $end
+$var wire 1 % rstn $end
+$var wire 1 = co $end
+$var wire 1 > adder_result $end
+$upscope $end
+$scope module add03 $end
+$var wire 1 ? ab0 $end
+$var wire 1 @ ab1 $end
+$var wire 1 A ci $end
+$var wire 1 % rstn $end
+$var wire 1 B co $end
+$var wire 1 C adder_result $end
+$upscope $end
+$scope module add10 $end
+$var wire 1 D ab0 $end
+$var wire 1 E ab1 $end
+$var wire 1 F ci $end
+$var wire 1 % rstn $end
+$var wire 1 G co $end
+$var wire 1 H adder_result $end
+$upscope $end
+$scope module add11 $end
+$var wire 1 I ab0 $end
+$var wire 1 J ab1 $end
+$var wire 1 K ci $end
+$var wire 1 % rstn $end
+$var wire 1 L co $end
+$var wire 1 M adder_result $end
+$upscope $end
+$scope module add12 $end
+$var wire 1 N ab0 $end
+$var wire 1 O ab1 $end
+$var wire 1 P ci $end
+$var wire 1 % rstn $end
+$var wire 1 Q co $end
+$var wire 1 R adder_result $end
+$upscope $end
+$scope module add13 $end
+$var wire 1 S ab0 $end
+$var wire 1 T ab1 $end
+$var wire 1 U ci $end
+$var wire 1 % rstn $end
+$var wire 1 V co $end
+$var wire 1 W adder_result $end
+$upscope $end
+$scope module add20 $end
+$var wire 1 X ab0 $end
+$var wire 1 Y ab1 $end
+$var wire 1 Z ci $end
+$var wire 1 % rstn $end
+$var wire 1 [ co $end
+$var wire 1 \ adder_result $end
+$upscope $end
+$scope module add21 $end
+$var wire 1 ] ab0 $end
+$var wire 1 ^ ab1 $end
+$var wire 1 _ ci $end
+$var wire 1 % rstn $end
+$var wire 1 ` co $end
+$var wire 1 a adder_result $end
+$upscope $end
+$scope module add22 $end
+$var wire 1 b ab0 $end
+$var wire 1 c ab1 $end
+$var wire 1 d ci $end
+$var wire 1 % rstn $end
+$var wire 1 e co $end
+$var wire 1 f adder_result $end
+$upscope $end
+$scope module add23 $end
+$var wire 1 g ab0 $end
+$var wire 1 h ab1 $end
+$var wire 1 i ci $end
+$var wire 1 % rstn $end
+$var wire 1 j co $end
+$var wire 1 k adder_result $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+b0 /
+b0 .
+b0 -
+bz000 ,
+bz000 +
+bz000 *
+b0 )
+z(
+b0 '
+b0 &
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#2
+1H
+1E
+b110 )
+14
+bz001 +
+19
+10
+15
+b10 #
+b10 '
+b11 "
+b11 &
+1%
+1$
+#4
+0$
+#6
+b110 !
+b110 /
+0f
+0c
+0W
+0U
+0Q
+0P
+0L
+1\
+1a
+0E
+0K
+1Y
+1^
+04
+bz000 +
+09
+b11100 )
+1H
+b0 -
+0G
+1M
+bz011 *
+1R
+00
+05
+1D
+1I
+1N
+b100 #
+b100 '
+b111 "
+b111 &
+1$
+#8
+0$
+#10
+b11100 !
+b11100 /
+0j
+0i
+0e
+0Y
+0^
+0_
+0d
+0H
+0M
+bz000 *
+0R
+1\
+0[
+1a
+bz000 ,
+0`
+1f
+b1111000 )
+1k
+0D
+0I
+0N
+1X
+1]
+1b
+1g
+b1000 #
+b1000 '
+b1111 "
+b1111 &
+1$
+#12
+0$
+#14
+b1111000 !
+b1111000 /
+0\
+0a
+0f
+b0 )
+0k
+0X
+0]
+0b
+0g
+b0 #
+b0 '
+b0 "
+b0 &
+1$
+#16
+0$
+#18
+b0 !
+b0 /
+0%
+1$
+#20
+0$
+#22
+1$
+#24
+0$
+#26
+1$
