@@ -1,1 +1,1 @@
-# Testing
+# Laboratorio de circuitos digitales
